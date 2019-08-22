@@ -24,6 +24,7 @@ dependencies {
   }
   ("kotlinx" to "1.3.0-RC2").also {
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:${it.second}")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-jdk8:${it.second}")
   }
   ("junit5" to "5.5.1").also {
     testImplementation(kotlin("test-junit5"))
